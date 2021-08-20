@@ -1,10 +1,1 @@
-{
-  "extends": [
-    "html-validate:recommended"
-  ],
-
-  "rules": {
-    "close-order": "error",
-    "void": ["warn", {"style": "omit"}]
-  }
-}
+node_modules/.bin/html-validate index.html
